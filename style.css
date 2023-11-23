@@ -1,0 +1,178 @@
+body {
+    background-image: url(lightbackground.png);
+    background-size: cover;
+    height: 3000px;
+}
+
+.header {
+    padding: 0px 0px 0px 55px;
+    width: 900px;
+    margin-left: 15%;
+    border-top: 4px solid rgb(0, 145, 255);
+    border-bottom: 4px solid rgb(0, 145, 255);
+    border-radius: 40px;
+    text-transform: capitalize;
+    position: fixed;
+    background-color: #ffffff99;
+    z-index: 99;
+    box-sizing: border-box;
+}
+
+.header .topline {
+    text-align: center;
+    FONT-WEIGHT: 900;
+    margin: -70px;
+    margin-left: 10px;
+    color: white;
+    position: relative;
+    left: -10px;
+}
+
+.header h2 {
+    text-shadow: 1px 2px 4px #62400083;
+    text-decoration: underline rgba(229, 154, 32, 0.365);
+    font-size: 30px;
+}
+
+.header .topline .home a {
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgba(48, 171, 238, 0);
+    margin-left: 1%;
+    width: 20%;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(48, 172, 238);
+    position: relative;
+    left: -370px;
+    top: 66px;
+}
+
+.header .topline .home a button {
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(48, 171, 238);
+    margin-left: 1%;
+    width: 20%;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(48, 172, 238);
+    cursor: pointer;
+}
+
+.header .topline .home a button:hover {
+    background-color: rgb(48, 137, 238);
+}
+
+.header .topline .about a {
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgba(43, 162, 226, 0);
+    margin-left: 1%;
+    width: 20%;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(48, 172, 238);
+    position: relative;
+    left: -160px;
+    top: 17px;
+}
+
+.header .topline .about a button {
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(48, 172, 238);
+    margin-left: 1%;
+    width: 20%;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(48, 172, 238);
+    cursor: pointer;
+}
+
+.header .topline .about a button:hover {
+    background-color: rgb(48, 137, 238);
+}
+
+.header .topline .service a {
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgba(48, 171, 238, 0);
+    margin-left: 1%;
+    width: 20%;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(48, 172, 238);
+    position: relative;
+    bottom: 32px;
+    left: 50px;
+}
+
+.header .topline .service a button {
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(48, 172, 238);
+    margin-left: 1%;
+    width: 20%;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(48, 172, 238);
+    cursor: pointer;
+}
+
+.header .topline .service a button:hover {
+    background-color: rgb(48, 137, 238);
+}
+
+.header .topline .contact a {
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgba(48, 171, 238, 0);
+    margin-left: 1%;
+    width: 20%;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(48, 172, 238);
+    position: relative;
+    bottom: 81px;
+    left: 259px;
+}
+
+.header .topline .contact a button {
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(48, 172, 238);
+    margin-left: 1%;
+    width: 20%;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(48, 172, 238);
+    cursor: pointer;
+}
+
+.header .topline .contact a button:hover {
+    background-color: rgb(48, 137, 238);
+}
+
+.primary_home {
+    padding: 185px 190px;
+}
+
+.p_home {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.p_home:hover {
+    background-color: rgba(0, 0, 0, 0.125);
+}
